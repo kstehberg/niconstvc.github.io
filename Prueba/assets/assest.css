@@ -107,7 +107,7 @@ section i {
 .Proyectos {
     display: flex ;
     flex-wrap: wrap;
-    padding-left: 10px;
+    padding-left: 100px;
     align-items: center;
 }
 
