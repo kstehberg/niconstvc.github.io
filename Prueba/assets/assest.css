@@ -122,6 +122,32 @@ margin-bottom: 0%;
 color:rgb(1, 1, 1);
 }
 
+.exp {
+    margin-bottom: 0;
+    padding: 0 40px;
+    color: rgb(1, 1, 1);
+}
+
+.experiencia {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+}
+
+.experiencia img {
+    text-align: center;
+    margin: 15px;
+}
+
+.experiencia h2,
+.experiencia h3,
+.experiencia p {
+    text-align: center;
+    margin: 0 45px; 
+}
+
+
 form {
     color: white;
     display: grid;
@@ -143,7 +169,7 @@ input, textarea {
 }
 
 button {
-    background-color: #000000;
+    background-color: #3f3e3e;
     color: #fff;
     margin: 10px;
     padding: 10px;
