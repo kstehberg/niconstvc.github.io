@@ -1,0 +1,53 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#logo {
+  max-width: 180px; 
+  margin-right: auto; 
+}
+
+#Hero-Section {
+  background-image: url("/Desafios/Desafio5/assets/img/Portada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.container h1{
+  font-size: 63px;
+}
+
+.container p {
+   font-size: 14px;
+}
+
+#Mis-trabajos .image-top {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding-top: 60%; 
+}
+
+.work {
+  background-color: gray; 
+}
+
+
+#Contacto form label {
+  font-weight: 600;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}

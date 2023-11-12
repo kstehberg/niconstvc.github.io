@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'MPLUSounded1c-Black';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#Portada {
+    background-image: url("/assest/img/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.container h1 {
+    font-size: 83px;
+    text-align: center;
+    color: white;
+}
+
+.container h2 {
+    font-size: 63px;
+    text-align: center;
+    color: white;
+}
+
+.container p {
+    font-size: 14px;
+    color: white;
+    margin-left: 80%;
+}
+
