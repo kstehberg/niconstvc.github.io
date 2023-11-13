@@ -8,6 +8,7 @@ html, body {
 #Portada {
     background-image: url("/assest/img/portada.png");
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -21,22 +22,17 @@ html, body {
     display: flex;
 }
 
-
-.container h1 {
+#Portada h1, #Portada h2 {
     font-size: 83px;
-    text-align: center;
     color: white;
 }
 
-.container h2 {
+#Portada h2 {
     font-size: 63px;
-    text-align: center;
-    color: white;
 }
 
-.container p {
-    font-size: 14px;
+#Portada p {
+    font-size: 24px;
     color: white;
-    margin-left: 80%;
+    margin-left: 50%;
 }
-
